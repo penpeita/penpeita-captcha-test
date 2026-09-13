@@ -1,0 +1,45 @@
+:root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", sans-serif; color: #172941; background: #f0f4f9; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; border-top: 5px solid #ffac3e; }
+main { max-width: 780px; padding: 30px 24px 36px; margin: auto; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.wordmark { font-weight: 750; font-size: 16px; letter-spacing: .01em; }
+.wordmark span { color: #63758c; padding: 0 6px; }
+.tag, .eyebrow { font-size: 13px; font-weight: 750; letter-spacing: .09em; }
+.tag { border: 1px solid #bcc9da; padding: 6px 9px; border-radius: 4px; }
+.intro { padding: 38px 0 22px; }
+.eyebrow { margin: 0 0 10px; color: #4d647e; }
+h1 { margin: 0; font-size: clamp(26px, 5vw, 38px); line-height: 1.25; letter-spacing: -.03em; }
+p { font-size: 16px; line-height: 1.8; margin: 12px 0; }
+.intro > p:last-child { color: #4c6079; }
+.card { padding: 26px; border: 1px solid #d2ddeb; border-radius: 14px; background: white; box-shadow: 0 14px 36px #16314c09; }
+.steps { display: flex; justify-content: space-between; list-style: none; padding: 0 0 21px; margin: 0; border-bottom: 1px solid #e2e8ef; gap: 12px; }
+.steps li { display: flex; gap: 9px; font-size: 14px; color: #627790; font-weight: 650; }
+.steps span { color: #334c69; }
+.result { padding: 24px 0 15px; }
+.status-label { font-size: 14px; font-weight: 700; margin: 0 0 8px; color: #536983; }
+h2 { font-size: 25px; line-height: 1.45; margin: 0; }
+#status-detail { color: #4c6079; }
+[data-state="success"] .status-label, [data-state="success"] h2 { color: #12653e; }
+[data-state="error"] .status-label, [data-state="error"] h2 { color: #a52c25; }
+[data-state="incorrect"] h2, [data-state="expired"] h2 { color: #865000; }
+#captcha { margin: 0 auto 24px; max-width: 100%; }
+#captcha > div { max-width: 100%; }
+button { appearance: none; background: #172e4a; color: white; font: inherit; font-size: 16px; font-weight: 700; border: 0; border-radius: 7px; padding: 14px 24px; cursor: pointer; min-height: 48px; }
+button:hover:enabled { background: #25496f; }
+button:disabled { background: #60728a; cursor: default; }
+button:focus-visible, input:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 3px solid #2878bd; outline-offset: 4px; }
+.small { font-size: 14px; color: #526780; }
+.card > .small { margin-bottom: 0; }
+details { margin-top: 20px; padding: 18px 22px; border: 1px solid #ccd7e4; border-radius: 9px; background: #f8fafd; }
+summary { cursor: pointer; font-size: 16px; font-weight: 650; }
+label { display: block; margin: 17px 0 8px; font-size: 14px; font-weight: 650; }
+input, textarea { display: block; width: 100%; max-width: 100%; font: inherit; font-size: 16px; color: #172941; background: white; border: 1px solid #a8b9ce; border-radius: 6px; padding: 12px; }
+textarea { resize: vertical; }
+input:disabled, textarea:disabled { color: #536983; background: #edf1f6; }
+footer { font-size: 14px; line-height: 1.8; color: #526780; margin: 24px 4px 0; }
+strong { overflow-wrap: anywhere; }
+[hidden] { display: none !important; }
+#unlock-button { margin-top: 18px; }
+#access-password { font-family: monospace; }
+@media (max-width: 520px) { main { padding: 22px 16px; } .intro { padding-top: 30px; } .card { padding: 21px 18px; } .steps li { display: block; font-size: 13px; } .steps span { display: block; margin-top: 5px; font-size: 14px; } button { width: 100%; } .tag { display: none; } }
