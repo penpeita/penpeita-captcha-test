@@ -2,7 +2,7 @@
 
 A temporary AWS WAF CAPTCHA test page: enter the privately shared 300-digit password, solve the AWS WAF puzzle, then see the success result.
 
-Current status: the password screen is ready; AWS CAPTCHA configuration is pending. Once configured, the CAPTCHA opens automatically after password entry.
+AWS CAPTCHA is configured. The puzzle opens automatically after password entry.
 
 Test page: https://penpeita.github.io/penpeita-captcha-test/
 
