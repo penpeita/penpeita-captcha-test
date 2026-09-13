@@ -37,13 +37,13 @@
       <div id="result" class="result" data-state="idle" role="status" aria-live="polite" aria-atomic="true">
         <p id="status-label" class="status-label">準備待ち</p>
         <h2 id="status-title">テストを始めましょう</h2>
-        <p id="status-detail">下の設定を入力して、CAPTCHAを表示してください。</p>
+        <p id="status-detail">CAPTCHAの表示をお待ちください。</p>
       </div>
       <div id="captcha" hidden></div>
       <button id="start" type="button">CAPTCHAを表示</button>
       <p class="small">実行するとAWSへ接続します。CAPTCHAの利用料金が発生する場合があります。</p>
     </section>
-    <details id="settings" open>
+    <details id="settings" hidden>
       <summary>AWSの接続設定</summary>
       <p>このページのドメイン：<strong id="current-domain"></strong></p>
       <label for="integration-url">JavaScript連携URL（末尾が /jsapi.js）</label>
