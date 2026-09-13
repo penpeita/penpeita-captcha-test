@@ -50,6 +50,9 @@ if (typeof module !== "undefined" && module.exports) {
       document.getElementById("access-gate").hidden = true;
       document.getElementById("test-content").hidden = false;
       document.getElementById("start").focus();
+      if (window.CAPTCHA_TEST_CONFIG.integrationUrl && window.CAPTCHA_TEST_CONFIG.apiKey) {
+        document.getElementById("start").click();
+      }
     } catch {
       delete window.CAPTCHA_TEST_CONFIG;
       message.textContent = "開けませんでした。パスワード全文を貼り付け直してください。改善しない場合はページを再読み込みしてください。";
