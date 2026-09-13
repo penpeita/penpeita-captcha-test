@@ -1,7 +1,8 @@
 // Encrypted CAPTCHA-only settings. Password is distributed separately.
 window.CAPTCHA_TEST_ENCRYPTED_CONFIG = {
   "version": 1,
-  "salt": "4heuoeM1zXAGtlEXBSGGog==",
-  "iv": "uyC7jBe3x/BTEYcM",
-  "data": "G/EIfIT5qzZw+lrA4/2DKsQHDiXKUycIyVdjIH/706m6AJ6t/dYSxsGBcADUa+1DYQ=="
+  "salt": "c5qihQ9eC3aHdA4twNaYig==",
+  "iv": "GJcqhR01i+646YQE",
+  "data": "tJVfkWwXqQLqSx0NrD1ujDXgl9i3yjA6EjzAzhtoGf8KVawFqiy2mI5Wyq4laIPEXIUD3QEE3EGqINrgcnfEMdCzdQ3ax7owBdAp2JnFpmXnm3oz28sK9rUlUoD+9o5n1Buvj4i9lcFiJ1qFcFyP5iwAU6Q1+8ZaasDJSJxC9Tdt4kFPtGDlEsrp80eDlufe/1OELjCSAA67i9Fs5BvSnEfdC7JGrocda15ogqWLOj5l739hutwlSnMIkQp21HWUeDVfEYDWDYyykMWATrTZG7fvSN0D9A/SviAwIAVI4ThAvQNUYWdMFBL0CRV9pgMDtxRPwkMVgVxRM2g0hoVspn5QP2CY6b1fhHRxbatipXIA2CQyJ6CuU5U5UEaXkseZo//Tobh3iMR4/vOzkg5hn17pRVu6cvLGGSmECNzxZCdiB4XVvCznurRFmGD8Cabj4oMmoMMrNrR+JRHlYsoufkO/kjjxQZrUeqYdKzXXMfRArX+w+ef8OdayZvmBJSCFin3+YYBT09qkAgwriFNxZN5CaYtr8rQHny3V3Rqv40hXVkZbcNn3mtyA+W5Yt0AYPuzKzt6j7hCNBwLqqRxdLQIcgmd3aojC/UhrumduHgtH/hwBMOHDouoPNth8Ht4ojfwDCgW0ZqB8uZaL2YRJ0++ZlyXeP1SxPqv5bvdYVHebzEsYZjKLqK84V2NmhunE5v/0G0o2VBqI947KcxsklX2iZvVAh7e94zyNYOLzzNOm/rZx4mzEFr/vijeSwbQ+kAoH3TkAnbDfkOJHWlT7meBEOHUFw8yE4qWj6S4xk1n1SDf11KM+99m8POoy/A4f18OEIuryA9t+7SbY27EesxlEIYpV4mWob6Y55wFl2VnvkLa2v1oaip6Zd0msI8mWD+7MThxEmlfmzMFS/SmNOa2VuCrhdJ2rGmWtC2N1SEAToyw+acP/BvLfGganixwW3GU5/azV+XRahEJzQ/JXcCMEH64th9Oz72lzImlX8Kv3dm5nvZ7feLnE5Ew4jmlt17vTsQSAMVPGocZ+jt0KljdaleK+dtboNZxj8JvHd2VsEOAGubayN4JLIVE="
 };
+
